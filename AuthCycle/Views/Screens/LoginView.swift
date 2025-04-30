@@ -102,7 +102,6 @@ struct ForgotPasswordButton: View {
         HStack {
             Spacer()
             Button(action: {
-                print("Forgot password tapped")
             }) {
                 Text("Forgot Password ?")
                     .interFont(size: 12)
